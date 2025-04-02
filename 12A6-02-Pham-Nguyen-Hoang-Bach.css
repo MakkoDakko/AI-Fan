@@ -1,0 +1,109 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Bio section */
+.bio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.bio img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Music section */
+.music {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Survey section */
+.survey {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="radio"] {
+    padding: 8px;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .bio, .music, .survey {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
