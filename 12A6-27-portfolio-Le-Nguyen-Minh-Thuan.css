@@ -1,0 +1,91 @@
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #AEB08F;
+            }
+            h1 {
+                text-align: center;
+                color: #47463D;
+                margin-top: 50px;
+            }
+            p {
+                text-align: center;
+                color: #EEEFEA;
+            }
+            strong {
+                color: #565C4A;
+            }
+            em {
+                color: #898473;
+            }
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+            h3 {
+                text-align: center;
+                color: #333;
+            }
+            pre {
+                text-align: center;
+                color: #333;
+            }
+            iframe {
+                display: block;
+                margin: 0 auto;
+            }
+            table {
+                margin: 0 auto;
+            }
+            th {
+                background-color: #4b4848;
+                color: #fff;
+            }
+            td {
+                background-color: #f0f0f0;
+            }
+            a:link {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            div.container {
+                text-align: center;
+            }
+
+            ul.myUL {
+                display: inline-block;
+                text-align: left;
+            }
+            ol.myOL {
+                display: inline-block;
+                text-align: left;
+            }
+            img {
+                width: 25%;
+                height: 500px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div.social-icons {
+            text-align: center;
+            margin-top: 20px;
+            }
